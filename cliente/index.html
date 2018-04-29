@@ -3,28 +3,27 @@
   <head>
     <meta charset="UTF-8">
     <title>Horizonte artificial y altímetro</title>
-    <link rel="stylesheet" href="./css/altitude.css">
-    <script src="./javascript/setAltitude.js"></script>
+    <link rel="stylesheet" href="./Altimetro/css/altitude.css">
+    <script src="./Altimetro/javascript/setAltitude.js"></script>
   </head>
-  
   <body>
      <!--Cargamos todas las imagenes del altimetro dentro del div "instrument"-->
      <div class="instrument">
         <div>
             <!--Esta tiene que ser un object para poder modificar sus elementos internos-->
-            <object id="altimeter_back" data="./svg/altim_back_s.svg" type="image/svg+xml"></object>
+            <object id="altimeter_back" data="./Altimetro/svg/altim_back.svg" type="image/svg+xml"></object>
         </div>
         <div id="rollWidget100">
-            <img alt="hand_100" src="./svg/altim_hhundr_s.svg"/>
+            <img alt="hand_100" src="./Altimetro/svg/altim_hhundr.svg"/>
         </div>
         <div id="rollWidget1k">
-            <img alt="hand_1k" src="./svg/altim_hthous.svg"/>
+            <img alt="hand_1k" src="./Altimetro/svg/altim_hthous.svg"/>
         </div>            
         <div id="rollWidget10k">
-          <img alt="hand_10k" src="./svg/altim_htenth.svg"/>
+          <img alt="hand_10k" src="./Altimetro/svg/altim_htenth.svg"/>
         </div>
         <div id="instrument decoration">
-                <img alt="decoration" src="./svg/altim_decor.svg"/>
+                <img alt="decoration" src="./Altimetro/svg/altim_decor.svg"/>
               </div>
       </div>
       <br>
