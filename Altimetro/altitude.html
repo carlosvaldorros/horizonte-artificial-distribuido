@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./altitude.css">
+        <script src="setAltitude.js"></script>
+    </head>
+
+    <body>
+        <!--Cargamos todas las imagenes del altimetro dentro del div "instrument"-->
+        <div class="instrument">
+            <div>
+                <!--Esta tiene que ser un object para poder modificar sus elementos internos-->
+                <object id="altimeter_back" data="./img/altim_back_s.svg" type="image/svg+xml"></object>
+            </div>
+            <div id="rollWidget100">
+                <img alt="hand_100" src="./img/altim_hhundr_s.svg"/>
+            </div>
+            <div id="rollWidget1k">
+                <img alt="hand_1k" src="./img/altim_hthous.svg"/>
+            </div>            
+            <div id="rollWidget10k">
+              <img alt="hand_10k" src="./img/altim_htenth.svg"/>
+            </div>
+            <div id="instrument decoration">
+                    <img alt="decoration" src="./img/altim_decor.svg"/>
+                  </div>
+          </div>
+          <br>
+          <!--El slider activa la funcion cada vez que se mueve-->
+          <div class="slidecontainer">
+            <input type="range" min="1" max="100000" value="1" class="slider" id="altitude" oninput="setAlt()">
+          </div>
+          <br>
+          Altimeter (feet): <input type="text" id="altValue" value="">
+
+    </body>
+</html>
