@@ -32,18 +32,12 @@ function setAlt(){
         }
         if (Altsetting < 10) {
             digits [1] = 0;
-            digits [2] = 0;
-            digits [3] = 0;
-            digits [4] = 0;
         }
         if (Altsetting < 100) {
             digits [2] = 0;
-            digits [3] = 0;
-            digits [4] = 0;
         }
         if (Altsetting < 1000) {
             digits [3] = 0;
-            digits [4] = 0;
         }
         if (Altsetting < 10000) {
             digits [4] = 0;
