@@ -2,7 +2,7 @@ function setAlt(Altsetting){
     //Cogemos el valor del slider para trabajar con el
     //var Altsetting = document.getElementById("altitude").value;
 
-    Altsetting = Math.round(Altsetting/20)*20;
+    Altsetting20 = Math.round(Altsetting/20)*20;
 
     //Cogemos las 3 manecillas
     var Alt10k = document.getElementById("rollWidget10k");
@@ -27,7 +27,7 @@ function setAlt(Altsetting){
         digits = [0, 0, 0, 0, 0];
     }
     else {
-        var num = Math.abs(Altsetting);
+        var num = Math.abs(Altsetting20);
         var digits = [];
         while (num > 0) {
             digits[digits.length] = num % 10;
