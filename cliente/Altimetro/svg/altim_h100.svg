@@ -5,12 +5,35 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="500"
    height="500"
    viewBox="0 0 132.29167 132.29167"
    version="1.1"
-   id="svg8">
+   id="svg8"
+   sodipodi:docname="altim_h100.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview6"
+     showgrid="false"
+     inkscape:zoom="3.776"
+     inkscape:cx="224.93342"
+     inkscape:cy="332.22338"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
   <defs
      id="defs2" />
   <metadata
@@ -21,17 +44,14 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <image
-     width="5.23875"
-     height="42.703751"
-     preserveAspectRatio="none"
-     style="image-rendering:optimizeSpeed"
-     xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAENCAYAAACB/QyWAAAABHNCSVQICAgIfAhkiAAAA49JREFU eJzt3S9jm2AUxeGTqVcikUhkJBKJxAWXyMnJfYvKysjKyklk5CQSGYlE3olyUpKS8L+ZOI9Zt3bw 232XmzSmwHzRAteYrQTgPTMgAWAAfj4z4thE5M8KcADqJsIABFMv9GNGRNaE0GHGtSb7A8DiOOYk iu8O8JsbW1EU5vs+QyY9XKceRwYAcRwjDENkWcY/30283iR/AdjxeDQzs9PpxEmccf3/ZDUhAHPO WVVVRmEYMiQZe8Epx7EHgDRN4Xmfi3K/3199fm0lAHt/f7e2siw5iRorH0kMwHzft7qu7Vbr4XoY c9Gxx3E5Cue+/mN3u93V163BAagA2Ol0+jIFM7Oqqsw5x2n4a0RkACwMw84AyrKMEb+HXnjMceyB q5F3WvNIfDTPmGVZPpxEXdftNb4dcvGhk0gBuCiKEATBwy90ziFNU/520TV+AmCvr68Pp0A3a3wR nWu6TxAEg9f4kOPIACBJkqs13ae1xhc5ks413WfJNR4BMM/zOtd0nyiKGJI9uknfcewBIMuyzjXd Z4ln1suazvN89BTMllnjKQALgmBSAKVpyohf92706Dh2wNVIJ2mt8dGPEg/Nmi6KYtYk6ro2z/M4 jbDrZvcmkaFZ02HY+fcGc861X42PGmuOEWu6T57nnEQ5NCBAs6bP5/MiEWZXazy+vWHXcRyAj29s fH+5F0djd0YBwN7e3habgplZURScRIWeNT5rTfe5t8Zvj2MH3H81PdeQneHw8SJk8prucz6fucZr 3FnjCRZY032SJOGRXN7nah/H5RlzTY8eJZf3n+au6T43azwAPieRAXDb7Xb2mu5z82r80P5cDsBe Xl5WnQJ1rfHL+09Lruk+7fe5fnAkSZIsuqb7HA4HfrgHVlrTfdprfNN8gLquV9mSj2w2m49fGWFm 3xrQjpjztvJiFEGKIEWQIkgRpAhSBCmCFEGKIEWQIkgRpAhSBCmCFEGKIEWQIkgRpAhSBCmCFEGK IEWQIkgRpAhSBCmCFEGKIEWQIkgRpAhSBCmCFEGKIEWQIkgRpAhSBCmCFEGKIEWQIkgRpAhSBCmC FEGKIEWQIkgRpAhSBCmCFEGKIEWQIkgRpAhSBCmCFEGKIEWQIkgRpAhSBCmCFEGKIEWQIkgRpAhS BCmCFEGKIEWQIkgRpAhSBCmCFEGKIEWQIkgRpAhSBCmCFEGKIEWQIkgRdPlZks/0X0ziH4OFXn9R bhQ/AAAAAElFTkSuQmCC "
-     id="image1561"
-     x="63.526459"
-     y="23.442085" />
+  <path
+     style="fill:#ffffff;stroke:#000000;stroke-width:0.26458335px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+     d="M 63.500002,66.145835 V 30.427084 l 2.645833,-7.14375 2.645833,7.14375 v 35.718751 z"
+     id="path818"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccccc" />
 </svg>
