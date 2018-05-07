@@ -23,7 +23,7 @@ function setAlt(Altsetting){
     document.getElementById('altValue').value=Altsetting;
 
     //Dividimos la altitud en sus digitos
-    if (Altsetting==100000 || Altsetting==-10000) {
+    if (Altsetting >= 100000 || Altsetting <= -10000) {
         digits = [0, 0, 0, 0, 0];
     }
     else {
@@ -33,18 +33,20 @@ function setAlt(Altsetting){
             digits[digits.length] = num % 10;
             num = parseInt(num / 10);
         }
-        if (Altsetting < 10 && Altsetting > -10) {
+        if (Altsetting20 < 10 && Altsetting20 > -10) {
             digits [1] = 0;
+            digits [0] = 0; //Se cumple porque va de 20 en 20
         }
-        if (Altsetting < 100 && Altsetting > -100) {
+        if (Altsetting20 < 100 && Altsetting20 > -100) {
             digits [2] = 0;
         }
-        if (Altsetting < 1000 && Altsetting > -1000) {
+        if (Altsetting20 < 1000 && Altsetting20 > -1000) {
             digits [3] = 0;
         }
-        if (Altsetting < 10000 && Altsetting > -10000) {
+        if (Altsetting20 < 10000 && Altsetting20 > -10000) {
             digits [4] = 0;
         }
+        
     }
     
     //Cogemos los diales de la imagen y los actualizamos
@@ -69,15 +71,23 @@ function setAlt(Altsetting){
     // Cogemos el fondo
     //var back = svgDoc.getElementById("path3731");
     var N1neg = svgDoc.getElementById("rect949");
+    var N1low = svgDoc.getElementById("rect949-3");
     // Cambiamos su color
     if (Altsetting < 0){
     //    back.style.fill = "#C01010";
         N1neg.style.opacity = 1;
+        N1low.style.opacity = 0;
     }
-    if (Altsetting > 0){
+    if (Altsetting >= 10000){
     //    back.style.fill = "#101010";
         N1neg.style.opacity = 0;
+        N1low.style.opacity = 0;
     }
+    if (Altsetting >= 0 && Altsetting < 10000){
+        //    back.style.fill = "#101010";
+        N1neg.style.opacity = 0;
+        N1low.style.opacity = 1;
+        }
 
     //Cogemos las manecillas para cambiarles el color en caso de altitud negativa
     //Cogemos las imagenes
