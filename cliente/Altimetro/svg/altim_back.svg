@@ -24,17 +24,17 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
+     inkscape:window-width="2736"
+     inkscape:window-height="1699"
      id="namedview861"
      showgrid="true"
-     inkscape:zoom="7.7090908"
-     inkscape:cx="230.68522"
-     inkscape:cy="216.06455"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:zoom="30.836363"
+     inkscape:cx="201.77198"
+     inkscape:cy="201.2143"
+     inkscape:window-x="-13"
+     inkscape:window-y="-13"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g1512"
+     inkscape:current-layer="svg8"
      showguides="false"
      inkscape:snap-nodes="true">
     <inkscape:grid
@@ -43,6 +43,22 @@
   </sodipodi:namedview>
   <defs
      id="defs2">
+    <linearGradient
+       id="linearGradient987"
+       inkscape:collect="always">
+      <stop
+         id="stop981"
+         offset="0"
+         style="stop-color:#009600;stop-opacity:1" />
+      <stop
+         style="stop-color:#64ff64;stop-opacity:1"
+         offset="0.49109367"
+         id="stop983" />
+      <stop
+         id="stop985"
+         offset="1"
+         style="stop-color:#009600;stop-opacity:1" />
+    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient956">
@@ -177,6 +193,16 @@
        inkscape:collect="always"
        xlink:href="#linearGradient956"
        id="linearGradient958"
+       x1="37.959141"
+       y1="58.923393"
+       x2="37.959141"
+       y2="43.327133"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       gradientTransform="matrix(0.56379074,0,0,0.56379074,28.869825,50.123288)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient987"
+       id="linearGradient958-1"
        x1="37.959141"
        y1="58.923393"
        x2="37.959141"
@@ -838,4 +864,11 @@
        x="55.575485"
        y="50.231956"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.44492149px;font-family:Arial;-inkscape-font-specification:Arial;fill:#ffffff;fill-opacity:1;stroke-width:0.16667306">ALT</tspan></text>
+  <rect
+     style="opacity:0;fill:url(#linearGradient958-1);fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:18.5;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     id="rect949-3"
+     width="6.5397067"
+     height="9.260417"
+     x="47.201668"
+     y="74.347916" />
 </svg>
